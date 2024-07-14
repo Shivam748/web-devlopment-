@@ -1,0 +1,97 @@
+body {
+    background: #141414c8; /* Semi-transparent dark background */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+.calculator-heading {
+    color: #e40b0b; /* Red color for heading */
+    font-size: 30px;
+    margin-bottom: 10px; /* Space below heading */
+    text-align: center;
+}
+
+button {
+    
+    border: none;
+    background-color: #588466c8; /* Transparent green background for buttons */
+    color: #fff; /* White text color */
+    padding: 15px 20px; /* Padding for buttons */
+    font-size: 18px; /* Font size for buttons */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+button:focus {
+
+    outline: none; /* Remove focus outline */
+}
+
+button:hover {
+    background-color: #588466; /* Darker green on hover */
+}
+
+.calculator {
+    display:inline-block;
+    background: #0f2248; /* Dark blue background for calculator */
+    padding: 25px 20px; /* Padding inside calculator */
+    margin-top: 2rem;
+    color: #fff; /* White text color */
+    width: 350px; /* Fixed width */
+    text-align: center;
+    border-radius: 5px; /* Rounded corners */
+}
+
+input {
+    width: 100%; /* Full width minus padding */
+    outline: none; /* Remove outline */
+    border: none; /* Remove border */
+    padding: 10px 10px; /* Padding for input */
+    margin-bottom: 10px; /* Space below input */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 25px; /* Font size */
+    color: #3bae3f; /* Green text color */
+}
+#output{
+    font-size: 22px;
+    border-radius: 0 0 5px 5px;
+}
+.calculator table{
+    margin: auto;
+}
+
+table {
+    margin: auto; /* Center align table */
+    margin-top: 20px; /* Space above table */
+}
+
+table tr td {
+    padding: 10px 12px; /* Padding inside table cells */
+    background: repeating-linear-gradient(320deg, black, transparent 100px); /* Gradient background */
+}
+
+
+table tr td button{
+    padding: 10px 15px;
+    color: turquoise;
+}
+
+table tr td p {
+    margin: 0; /* Remove margin from paragraphs */
+    cursor: pointer; /* Pointer cursor */
+    color: turquoise; /* Turquoise color */
+    padding: 10px 15px;
+}
+
+#equal {
+    background-color: turquoise; /* Turquoise background for equal button */
+    color: #fff; /* White text color */
+    font-weight: bold; /* Bold text */
+}
+
+#equal:hover {
+    background-color: #3bae3f; /* Darker green on hover */
+}
